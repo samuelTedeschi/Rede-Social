@@ -11,7 +11,7 @@
                 \RedeSocial\Views\MainView::render('home');
             }else{
                 //renderiza para criar conta
-                \RedeSocial\Views\MainView::render('registrar');
+                \RedeSocial\Views\MainView::render('login');
             }
         }
     }
