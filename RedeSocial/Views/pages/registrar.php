@@ -22,10 +22,14 @@
         </div><!--logo-->
 
         <div class="form-login">
+            <h3>Cria sua Conta</h3>
             <form action="" method="post">
-                <input type="text" name="login" id="" placeholder="Nome">
-                <input type="password" name="senha" id="" placeholder="Senha">
-                <input type="submit" value="Entrar" name="acao">
+                
+                <input type="text" name="nome" placeholder="Nome" id="">
+                <input type="text" name="login" placeholder="Nome de Usuario">
+               
+                <input type="password" name="senha" id="" placeholder="senha">
+                <input type="submit" value="Logar" name="acao">
             </form>
 
             <p><a href="<?php echo INCLUDE_PATH ?>registrar">Criar Conta</a></p>

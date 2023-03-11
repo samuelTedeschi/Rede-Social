@@ -6,14 +6,15 @@
 }
 
 html,body{
-    background-color: rgba(135, 206, 250, 0.167);
+    background-color: #292929;
+    color: #FAFAF0;
     height: 100%;
 }
 
 .sidebar{
     width: 30%;
     height: 100%;
-    background-color: rgba(102, 190, 228, 0.866);
+    background-color: #222419;
 }
 
 .form-container-login{
@@ -25,16 +26,25 @@ html,body{
     max-width: 1100px;
 }
 
-.logo-login{
-    width: 10%;
+.logo{
+    width: 40%;
+}
+
+.logo h1 {
+    font-size: 46px;
+}
+
+.logo p {
+    font-size: 18px;
 }
 
 .form-login{
-    width: 90%;
-    background-color:white;
+    width: 60%;
+    background-color:#222419;
+    box-shadow: 0px 2px 2px 3px #222419;
     padding: 30px;
     max-width: 500px;
-    margin-left: 20px;
+    margin-left: 70px;
     border-radius: 10px;
 }
 
@@ -43,29 +53,37 @@ html,body{
     width: 100%;
     height: 40px;
     padding-left: 10px;
-    box-shadow: 0px 3px 1px aliceblue;
-    border: 1px solid lavender;
+    border-style: none;
+    border-bottom: solid #08A1D9;
+    background-color: #222419;
     margin: 10px 0;
 }
 
 .form-login input[type=submit]{
     width: 100%;
     height: 40px;
-    background-color: lightskyblue;
+    background-color: #08A1D9;
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .form-login a {
-    border: 2px solid lightskyblue;
+    border: 2px solid #00CCC2;
     border-radius: 10px;
     display: block;
     width: 100%;
-    padding: 4px 10px;
+    padding: 8px 10px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     margin-top: 20px;
-    color: black;
+    color: #FAFAF0;
+}
+
+.form-login a:hover{
+    background-color: #00CCC2;
+    color: #222419;
 }
