@@ -26,7 +26,7 @@
             <form action="" method="post">
                 
                 <input type="text" name="nome" placeholder="Nome" id="">
-                <input type="text" name="login" placeholder="Nome de Usuario">
+                <input type="text" name="email" placeholder="Email">
                
                 <input type="password" name="senha" id="" placeholder="senha">
                 <input type="submit" value="Logar" name="acao">
