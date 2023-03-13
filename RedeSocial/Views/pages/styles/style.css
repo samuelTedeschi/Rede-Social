@@ -48,6 +48,12 @@ html,body{
     border-radius: 10px;
 }
 
+.form-login h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .form-login input[type=text],
 .form-login input[type=password]{
     width: 100%;
@@ -57,7 +63,14 @@ html,body{
     border-bottom: solid #08A1D9;
     background-color: #222419;
     margin: 10px 0;
+    color: white;
+    font-size: 1.3rem;
 }
+
+text:focus, input:focus, select:focus{
+    outline: 0;
+}
+
 
 .form-login input[type=submit]{
     width: 100%;
